@@ -15,7 +15,7 @@ root.title('survey')
 root.resizable(width=False, height=False)
 root['bg'] = 'white'
 
-Label = Label(root, text='Are you gay?', font='Arial 20 bold', bg='white').pack()
+Label = Label(root, text='Are you Smart?', font='Arial 20 bold', bg='white').pack()
 btnYes = Button(root, text='NO', font='Arial 20 bold')
 btnYes.place(x= 170, y=100)
 btnYes.bind('<Enter>', motionMouse)
